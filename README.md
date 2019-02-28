@@ -33,6 +33,8 @@ SELECT AgentID, AgtFirstName, AgtLastName, DateHired
 FROM Agents
 ORDER BY DateHired ASC
 ```
+<img src="https://github.com/Bmartt5/Advanced-Database-Development/blob/master/Results/Ch%206/1.%20Entertainment%20Agency%20Database%20Image%20-%20Copy.PNG"
+        alt="Entertainment Agency Database">
 - School Scheduling Database: Show a list of classes that meet Monday through Friday and start at 1 pm (4 rows)
 ``` SQL
 SELECT *
