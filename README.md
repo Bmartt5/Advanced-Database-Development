@@ -16,7 +16,7 @@ ORDER BY Titles
 ```
 - Bowling League Database #1 - List all of the teams in alphabetical order
 ``` SQL
-SELECT DISTINCT TeamName AS [Teams With Alphabetical Order]
+SELECT DISTINCT TeamName AS [Teams With Alphabetical Ordering]
 FROM Teams
 ORDER BY Team ASC
 ```
