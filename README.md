@@ -27,6 +27,8 @@ SELECT DISTINCT CustomerID
 FROM Orders B
 ORDER BY CustomerID
 ```
+<img src="https://github.com/Bmartt5/Advanced-Database-Development/blob/master/Results/Ch%206/3.%20Sales%20Orders%20Database%20Image%20-%20Copy.PNG"
+        alt="Sales Order Database">
 - Entertainment Agency Database: Get a list of engagements with contract price over 2000 in 2018 (6 rows)
 ``` SQL
 SELECT AgentID, AgtFirstName, AgtLastName, DateHired
@@ -41,9 +43,13 @@ SELECT *
 FROM Class_Rooms
 WHERE PhoneAvailable = '1' And BuildingCode = 'AS'
 ```
+<img src="https://github.com/Bmartt5/Advanced-Database-Development/blob/master/Results/Ch%206/4.%20School%20Schedule%20Database%20Image%20-%20Copy.PNG"
+        alt="School Scheduling Database">
 - Recipes Database: Show the names of all herbal ingredients (ingredient class 22) (1 row)
 ``` SQL
 SELECT Count(IngredientName)
 FROM Ingredients
 WHERE IngredientName LIKE 'Chick%'
 ```
+<img src="https://github.com/Bmartt5/Advanced-Database-Development/blob/master/Results/Ch%206/5.%20Recipe%20Database%20Image%20-%20Copy.PNG"
+        alt="Recipe Database">
